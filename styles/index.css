@@ -159,7 +159,7 @@ p.demos {
   -ms-transform: scale(5);
   transform: scale(5);
 }
-.sp-circle-link {
+.sp-circle-link-1 {
   position: absolute;
   left: 50%;
   bottom: 100px;
@@ -184,7 +184,36 @@ p.demos {
   -ms-transform: scale(1) rotate(0deg);
   transform: scale(1) rotate(0deg);
 }
-.sp-circle-link:hover {
+.sp-circle-link-1:hover {
+  background: #85373b;
+  color: #fff;
+}
+.sp-circle-link-2 {
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  margin-left: -50px;
+  text-align: center;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  color: #3f1616;
+  font-size: 25px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: fadeInRotate 1s linear 16s backwards;
+  -moz-animation: fadeInRotate 1s linear 16s backwards;
+  -ms-animation: fadeInRotate 1s linear 16s backwards;
+  animation: fadeInRotate 1s linear 16s backwards;
+  -webkit-transform: scale(1) rotate(0deg);
+  -moz-transform: scale(1) rotate(0deg);
+  -o-transform: scale(1) rotate(0deg);
+  -ms-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+}
+.sp-circle-link-2:hover {
   background: #85373b;
   color: #fff;
 }
