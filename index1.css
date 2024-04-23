@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow");
 
-body.initial-visit {
+body:not(.initial-visit) {
   background: #310404 url("../bg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8,22 +8,17 @@ body.initial-visit {
   background-size: cover;
   font-family: "Barlow", sans-serif;
 }
-
-body:not(.initial-visit) {
-  background: none;
-}
-
 .container {
   width: 100%;
   position: relative;
   overflow: hidden;
 }
 .sp-container.initial-visit h2 {
-  display: block;
+  display: none;
 }
 
 .sp-container.initial-visit h2.frame-6 {
-  display: none;
+  display: block;
 }
 a {
   text-decoration: none;
@@ -405,12 +400,6 @@ p.demos {
 
 .Normalize {
   display: inline-block;
-  white-space: nowrap;
-  margin: 0;
-  color: #e91e63;
-  font-size: 80px;
-  line-height: 1;
-  font-weight: 700;
 }
 
 /* Responsive styles */
