@@ -395,3 +395,49 @@ p.demos {
     transform: scale(1) rotate(0deg);
   }
 }
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+  background: rgba(237, 237, 237, 1);
+  background: linear-gradient(
+    45deg,
+    rgba(155, 243, 240, 1) 50%,
+    rgba(255, 255, 255, 1) 50%
+  );
+  background-size: 200%;
+  transition: 1s;
+  background-position: 0;
+  border-radius: 10px;
+  &:hover {
+    background-position: 95%;
+  }
+}
+
+body {
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+}
+p,
+ul,
+ol {
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-weight: 800;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 800;
+}
+.sample {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
