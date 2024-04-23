@@ -13,13 +13,6 @@ body {
   position: relative;
   overflow: hidden;
 }
-.sp-container.initial-visit h2 {
-  display: none;
-}
-
-.sp-container.initial-visit h2.frame-6 {
-  display: block;
-}
 a {
   text-decoration: none;
 }
@@ -76,10 +69,10 @@ p.demos {
   width: 100%;
   text-align: center;
   color: transparent;
-  -webkit-animation: blurFadeInOut 3s ease-in backwards;
-  -moz-animation: blurFadeInOut 3s ease-in backwards;
-  -ms-animation: blurFadeInOut 3s ease-in backwards;
-  animation: blurFadeInOut 3s ease-in backwards;
+  -webkit-animation: blurFadeInOut 2s ease-in backwards;
+  -moz-animation: blurFadeInOut 2s ease-in backwards;
+  -ms-animation: blurFadeInOut 2s ease-in backwards;
+  animation: blurFadeInOut 2s ease-in backwards;
 }
 .sp-container h2.frame-1 {
   -webkit-animation-delay: 0s;
@@ -88,31 +81,31 @@ p.demos {
   animation-delay: 0s;
 }
 .sp-container h2.frame-2 {
-  -webkit-animation-delay: 3s;
-  -moz-animation-delay: 3s;
-  -ms-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
 }
 .sp-container h2.frame-3 {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.sp-container h2.frame-4 {
+  /* font-size: 200px; */
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -ms-animation-delay: 6s;
   animation-delay: 6s;
 }
-.sp-container h2.frame-4 {
-  /* font-size: 200px; */
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
-  -ms-animation-delay: 9s;
-  animation-delay: 9s;
-}
 
 .sp-container h2.frame-5 {
   /* font-size: 200px; */
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -ms-animation-delay: 12s;
-  animation-delay: 12s;
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
 }
 
 .sp-container h2.frame-6 {
@@ -124,24 +117,24 @@ p.demos {
   text-shadow: 0px 0px 1px #fff;
 }
 .sp-container h2.frame-6 span {
-  -webkit-animation: blurFadeIn 3s ease-in 15s backwards;
-  -moz-animation: blurFadeIn 1s ease-in 15s backwards;
-  -ms-animation: blurFadeIn 3s ease-in 15s backwards;
-  animation: blurFadeIn 3s ease-in 15s backwards;
+  -webkit-animation: blurFadeIn 2s ease-in 10s backwards;
+  -moz-animation: blurFadeIn 1s ease-in 10s backwards;
+  -ms-animation: blurFadeIn 2s ease-in 10s backwards;
+  animation: blurFadeIn 2s ease-in 10s backwards;
   color: transparent;
   text-shadow: 0px 0px 1px #fff;
 }
 .sp-container h2.frame-6 span:nth-child(2) {
-  -webkit-animation-delay: 16s;
-  -moz-animation-delay: 16s;
-  -ms-animation-delay: 16s;
-  animation-delay: 16s;
+  -webkit-animation-delay: 11s;
+  -moz-animation-delay: 11s;
+  -ms-animation-delay: 11s;
+  animation-delay: 11s;
 }
 .sp-container h2.frame-6 span:nth-child(3) {
-  -webkit-animation-delay: 17s;
-  -moz-animation-delay: 17s;
-  -ms-animation-delay: 17s;
-  animation-delay: 17s;
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
 }
 .sp-globe {
   position: absolute;
