@@ -75,37 +75,37 @@ p.demos {
   animation: blurFadeInOut 2s ease-in backwards;
 }
 .sp-container h2.frame-1 {
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -ms-animation-delay: 0s;
-  animation-delay: 0s;
-}
-.sp-container h2.frame-2 {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -ms-animation-delay: 2s;
   animation-delay: 2s;
 }
-.sp-container h2.frame-3 {
+.sp-container h2.frame-2 {
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
   -ms-animation-delay: 4s;
   animation-delay: 4s;
 }
-.sp-container h2.frame-4 {
-  /* font-size: 200px; */
+.sp-container h2.frame-3 {
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -ms-animation-delay: 6s;
   animation-delay: 6s;
 }
-
-.sp-container h2.frame-5 {
+.sp-container h2.frame-4 {
   /* font-size: 200px; */
   -webkit-animation-delay: 8s;
   -moz-animation-delay: 8s;
   -ms-animation-delay: 8s;
   animation-delay: 8s;
+}
+
+.sp-container h2.frame-5 {
+  /* font-size: 200px; */
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+  -ms-animation-delay: 10s;
+  animation-delay: 10s;
 }
 
 .sp-container h2.frame-6 {
@@ -117,24 +117,24 @@ p.demos {
   text-shadow: 0px 0px 1px #fff;
 }
 .sp-container h2.frame-6 span {
-  -webkit-animation: blurFadeIn 2s ease-in 10s backwards;
-  -moz-animation: blurFadeIn 1s ease-in 10s backwards;
-  -ms-animation: blurFadeIn 2s ease-in 10s backwards;
-  animation: blurFadeIn 2s ease-in 10s backwards;
+  -webkit-animation: blurFadeIn 2s ease-in 12s backwards;
+  -moz-animation: blurFadeIn 1s ease-in 12s backwards;
+  -ms-animation: blurFadeIn 2s ease-in 12s backwards;
+  animation: blurFadeIn 2s ease-in 12s backwards;
   color: transparent;
   text-shadow: 0px 0px 1px #fff;
 }
 .sp-container h2.frame-6 span:nth-child(2) {
-  -webkit-animation-delay: 11s;
-  -moz-animation-delay: 11s;
-  -ms-animation-delay: 11s;
-  animation-delay: 11s;
+  -webkit-animation-delay: 13s;
+  -moz-animation-delay: 13s;
+  -ms-animation-delay: 13s;
+  animation-delay: 13s;
 }
 .sp-container h2.frame-6 span:nth-child(3) {
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -ms-animation-delay: 12s;
-  animation-delay: 12s;
+  -webkit-animation-delay: 14s;
+  -moz-animation-delay: 14s;
+  -ms-animation-delay: 14s;
+  animation-delay: 14s;
 }
 .sp-globe {
   position: absolute;
@@ -145,10 +145,10 @@ p.demos {
   margin: -137px 0 0 -141px;
   background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png)
     no-repeat top left;
-  -webkit-animation: fadeInBack 3.6s linear 14s backwards;
-  -moz-animation: fadeInBack 3.6s linear 14s backwards;
-  -ms-animation: fadeInBack 3.6s linear 14s backwards;
-  animation: fadeInBack 3.6s linear 14s backwards;
+  -webkit-animation: fadeInBack 3.6s linear 16s backwards;
+  -moz-animation: fadeInBack 3.6s linear 16s backwards;
+  -ms-animation: fadeInBack 3.6s linear 16s backwards;
+  animation: fadeInBack 3.6s linear 16s backwards;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
   filter: alpha(opacity=30);
   opacity: 0.3;
@@ -159,10 +159,10 @@ p.demos {
   transform: scale(5);
 }
 .sp-circle-link1 {
-  -webkit-animation: fadeInRotate 1s linear 16s backwards;
-  -moz-animation: fadeInRotate 1s linear 16s backwards;
-  -ms-animation: fadeInRotate 1s linear 16s backwards;
-  animation: fadeInRotate 1s linear 16s backwards;
+  -webkit-animation: fadeInRotate 1s linear 0s backwards;
+  -moz-animation: fadeInRotate 1s linear 0s backwards;
+  -ms-animation: fadeInRotate 1s linear 0s backwards;
+  animation: fadeInRotate 1s linear 0s backwards;
   -webkit-transform: scale(1) rotate(0deg);
   -moz-transform: scale(1) rotate(0deg);
   -o-transform: scale(1) rotate(0deg);
