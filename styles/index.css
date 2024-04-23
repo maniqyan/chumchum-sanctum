@@ -394,3 +394,32 @@ p.demos {
 .Normalize {
   display: inline-block;
 }
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .sp-container h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .sp-globe {
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+  }
+  .sp-circle-link1,
+  .sp-circle-link2 {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+  }
+  .sp-circle-link1 {
+    left: calc(50% - 100px);
+  }
+  .sp-circle-link2 {
+    left: calc(50% + 20px);
+  }
+}
