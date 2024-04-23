@@ -1,27 +1,14 @@
-window.onload = function () {
-  // Check if it's the initial visit or if the website was quit and revisited
-  if (!localStorage.getItem("visited")) {
-    // If it's the initial visit, play the animations
+window.addEventListener("load", function () {
+  // Check if sessionStorage contains the 'visited' key
+  if (!sessionStorage.getItem("visited")) {
+    // This is the first visit
     playAnimations();
-    // Set the flag to indicate that the website has been visited
-    localStorage.setItem("visited", true);
+    // Set the 'visited' key in sessionStorage
+    sessionStorage.setItem("visited", true);
   }
-};
+});
 
-// Function to play the animations
-function playAnimations() {
-  var element = document.querySelector(".sp-content");
-  var animationClasses = [
-    "frame-1",
-    "frame-2",
-    "frame-3",
-    "frame-4",
-    "frame-5",
-    "frame-6",
-  ];
-  animationClasses.forEach(function (className, index) {
-    setTimeout(function () {
-      element.classList.add(className);
-    }, index * 3000);
-  });
-}
+window.addEventListener("beforeunload", function () {
+  // Remove the 'visited' key from sessionStorage when leaving the website
+  sessionStorage.removeItem("visited");
+});
