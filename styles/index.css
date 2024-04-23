@@ -395,3 +395,7 @@ p.demos {
     transform: scale(1) rotate(0deg);
   }
 }
+
+.Normalize {
+  display: inline-block;
+}
