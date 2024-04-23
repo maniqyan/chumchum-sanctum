@@ -160,20 +160,6 @@ p.demos {
   transform: scale(5);
 }
 .sp-circle-link1 {
-  position: absolute;
-  left: 50%;
-  bottom: 100px;
-  margin-left: -50px;
-  text-align: center;
-  line-height: 100px;
-  width: 100px;
-  height: 100px;
-  background: #fff;
-  color: #3f1616;
-  font-size: 25px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
   -webkit-animation: fadeInRotate 1s linear 16s backwards;
   -moz-animation: fadeInRotate 1s linear 16s backwards;
   -ms-animation: fadeInRotate 1s linear 16s backwards;
@@ -189,20 +175,6 @@ p.demos {
   color: #fff;
 }
 .sp-circle-link2 {
-  position: absolute;
-  left: 50%;
-  bottom: 100px;
-  margin-left: -50px;
-  text-align: center;
-  line-height: 100px;
-  width: 100px;
-  height: 100px;
-  background: #fff;
-  color: #3f1616;
-  font-size: 25px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
   -webkit-animation: fadeInRotate 1s linear 17s backwards;
   -moz-animation: fadeInRotate 1s linear 17s backwards;
   -ms-animation: fadeInRotate 1s linear 17s backwards;
@@ -228,7 +200,7 @@ p.demos {
   height: 100px;
   background: #fff;
   color: #3f1616;
-  font-size: 25px;
+  font-size: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
