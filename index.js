@@ -1,12 +1,12 @@
-window.onload = function () {
+window.addEventListener("load", function () {
   // Check if it's the initial visit or if the website was quit and revisited
-  if (!sessionStorage.getItem("visited")) {
+  if (!localStorage.getItem("visited")) {
     // If it's the initial visit, play the animations
     playAnimations();
     // Set the flag to indicate that the website has been visited
-    sessionStorage.setItem("visited", true);
+    localStorage.setItem("visited", true);
   }
-};
+});
 
 // Function to play the animations
 function playAnimations() {
@@ -22,6 +22,11 @@ function playAnimations() {
   animationClasses.forEach(function (className, index) {
     setTimeout(function () {
       element.classList.add(className);
-    }, index * 3000);
+    }, index * 3000); // Adjust the delay here if needed
   });
 }
+
+window.addEventListener("beforeunload", function () {
+  // Remove the 'visited' flag when leaving the website
+  localStorage.removeItem("visited");
+});
