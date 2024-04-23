@@ -193,14 +193,14 @@ p.demos {
 .sp-circle-link1,
 .sp-circle-link2 {
   position: absolute;
-  bottom: 100px;
+  bottom: 200px;
   text-align: center;
   line-height: 100px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background: #fff;
   color: #3f1616;
-  font-size: 20px;
+  font-size: 25px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
