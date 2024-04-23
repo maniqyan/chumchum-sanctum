@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Check if user has visited the site before
-  if (localStorage.getItem("visitedBefore")) {
-    document.body.classList.remove("initial-visit");
+  var body = document.getElementById("body");
+  var isFirstVisit = localStorage.getItem("isFirstVisit");
+
+  if (isFirstVisit === null) {
+    // First visit
+    localStorage.setItem("isFirstVisit", "false");
   } else {
-    // Set flag in local storage indicating first visit
-    localStorage.setItem("visitedBefore", true);
+    // Return visit
+    body.classList.remove("initial-visit");
   }
 });
