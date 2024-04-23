@@ -159,7 +159,7 @@ p.demos {
   -ms-transform: scale(5);
   transform: scale(5);
 }
-.sp-circle-link {
+.sp-circle-link1 {
   position: absolute;
   left: 50%;
   bottom: 100px;
@@ -184,11 +184,11 @@ p.demos {
   -ms-transform: scale(1) rotate(0deg);
   transform: scale(1) rotate(0deg);
 }
-.sp-circle-link:hover {
+.sp-circle-link1:hover {
   background: #85373b;
   color: #fff;
 }
-.sp-circle-link {
+.sp-circle-link2 {
   position: absolute;
   left: 50%;
   bottom: 100px;
@@ -203,17 +203,17 @@ p.demos {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  -webkit-animation: fadeInRotate 1s linear 16s backwards;
-  -moz-animation: fadeInRotate 1s linear 16s backwards;
-  -ms-animation: fadeInRotate 1s linear 16s backwards;
-  animation: fadeInRotate 1s linear 16s backwards;
+  -webkit-animation: fadeInRotate 1s linear 17s backwards;
+  -moz-animation: fadeInRotate 1s linear 17s backwards;
+  -ms-animation: fadeInRotate 1s linear 17s backwards;
+  animation: fadeInRotate 1s linear 17s backwards;
   -webkit-transform: scale(1) rotate(0deg);
   -moz-transform: scale(1) rotate(0deg);
   -o-transform: scale(1) rotate(0deg);
   -ms-transform: scale(1) rotate(0deg);
   transform: scale(1) rotate(0deg);
 }
-.sp-circle-link:hover {
+.sp-circle-link2:hover {
   background: #85373b;
   color: #fff;
 }
