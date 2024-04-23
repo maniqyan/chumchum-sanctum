@@ -192,7 +192,7 @@ p.demos {
   position: absolute;
   left: 50%;
   bottom: 100px;
-  margin-left: -30px;
+  margin-left: -50px;
   text-align: center;
   line-height: 100px;
   width: 100px;
@@ -216,6 +216,30 @@ p.demos {
 .sp-circle-link2:hover {
   background: #85373b;
   color: #fff;
+}
+
+.sp-circle-link1,
+.sp-circle-link2 {
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  color: #3f1616;
+  font-size: 25px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.sp-circle-link1 {
+  left: calc(50% - 150px); /* Adjust this value to position the first link */
+}
+
+.sp-circle-link2 {
+  left: calc(50% + 50px); /* Adjust this value to position the second link */
 }
 /**/
 
