@@ -94,7 +94,7 @@ p.demos {
   animation-delay: 6s;
 }
 .sp-container h2.frame-4 {
-  font-size: 200px;
+  /* font-size: 200px; */
   -webkit-animation-delay: 9s;
   -moz-animation-delay: 9s;
   -ms-animation-delay: 9s;
@@ -102,7 +102,7 @@ p.demos {
 }
 
 .sp-container h2.frame-5 {
-  font-size: 200px;
+  /* font-size: 200px; */
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   -ms-animation-delay: 12s;
