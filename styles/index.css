@@ -1,35 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow");
 
-/* body { */
-/*   background: #310404 url("../bg.png") no-repeat center center fixed; */
-/*   -webkit-background-size: cover; */
-/*   -moz-background-size: cover; */
-/*   -o-background-size: cover; */
-/*   background-size: cover; */
-/*   font-family: "Barlow", sans-serif; */
-/* } */
+body:not(.initial-visit) {
+  background: #310404 url("../bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Barlow", sans-serif;
+}
 .container {
   width: 100%;
   position: relative;
   overflow: hidden;
 }
 .sp-container.initial-visit h2 {
-  background: #310404 url("../bg.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: "Barlow", sans-serif;
   display: none;
 }
 
 .sp-container.initial-visit h2.frame-6 {
-  background: #310404 url("../bg.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: "Barlow", sans-serif;
   display: block;
 }
 a {
